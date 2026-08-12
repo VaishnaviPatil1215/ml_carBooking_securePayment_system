@@ -1,5 +1,4 @@
 {
   "buildCommand": "cd studio && npm install && npm run build",
-  "outputDirectory": "studio/.next",
   "framework": "nextjs"
 }
