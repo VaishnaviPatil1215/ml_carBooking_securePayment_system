@@ -58,7 +58,7 @@ Razorpay Test Keys (in the .env file)
 
 Navigate to Backend:
 
-cd studio/backend_api
+cd backend
 
 
 Activate Environment & Install:
@@ -67,7 +67,7 @@ Activate Environment & Install:
 pip install -r requirements.txt
 
 
-Configure Keys: Ensure your Razorpay Test Keys are in the .env file within this directory (studio/backend_api/.env).
+Configure Keys: Ensure your Razorpay Test Keys are in the .env file within this directory (backend/.env).
 
 RAZORPAY_KEY_ID="rzp_test_YOUR_KEY_ID"
 RAZORPAY_KEY_SECRET="YOUR_SECRET_HERE"
@@ -84,7 +84,7 @@ python api_server.py
 
 Open a New Terminal Tab and navigate to the Next.js root:
 
-cd studio
+cd frontend
 
 
 Start Frontend:
