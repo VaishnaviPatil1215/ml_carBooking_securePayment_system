@@ -80,6 +80,14 @@ def prepare_input_data(data):
 
 # --- API Endpoints ---
 
+@app.route('/', methods=['GET'])
+def health_check():
+    """Root health check endpoint."""
+    return jsonify({
+        'status': 'online',
+        'message': 'DriveTime Adventures ML & Payment API is running live!'
+    }), 200
+
 @app.route('/api/predict_cost', methods=['POST'])
 def predict_cost_endpoint():
     """Endpoint to receive user input and return a predicted cost."""
