@@ -1,0 +1,8 @@
+node_modules/
+frontend/node_modules/
+backend/venv/
+backend/ml_service/.venv/
+*.zip
+.env
+.env.local
+.DS_Store
