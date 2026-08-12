@@ -1,4 +1,0 @@
-{
-  "buildCommand": "cd studio && npm install && npm run build",
-  "framework": "nextjs"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "car-booking-travel-project",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "build": "cd studio && npm install && npm run build"
-  }
-}
